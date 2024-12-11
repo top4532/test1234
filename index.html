@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #01579b;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid #0288d1;
+        }
+        .profile-header {
+            text-align: center;
+        }
+        .profile-header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #0288d1;
+        }
+        .profile-header h1 {
+            margin: 0;
+            color: #01579b;
+        }
+        .profile-header p {
+            color: #0277bd;
+        }
+        .profile-details {
+            margin-top: 20px;
+        }
+        .profile-details h2 {
+            border-bottom: 2px solid #0288d1;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #01579b;
+        }
+        .profile-details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .profile-details ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #bbdefb;
+            color: #01579b;
+        }
+    </style>
 </head>
 <body>
-    <h1>PATIWAT NOINGERN</h1>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="profile-placeholder.png" alt="Profile Picture">
+            <h1>Patthiwat Noingern</h1>
+            <p>ITS 36621N | Student ID: 366409221006</p>
+        </div>
+        <div class="profile-details">
+            <h2>About Me</h2>
+            <ul>
+                <li><strong>Hobbies:</strong> Coding, Reading, Gaming</li>
+                <li><strong>Skills:</strong> HTML, CSS, JavaScript, PHP</li>
+                <li><strong>Goals:</strong> To become a Full-Stack Developer</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
